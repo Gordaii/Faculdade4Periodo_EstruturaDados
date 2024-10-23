@@ -43,6 +43,8 @@ void percorrerPreOrdem(No* raiz) {
     }
 }
 
+// O número de comparações feitas em uma lista de N elementos é, na pior das hipóteses, n(n-1)/2.
+// Comparisons = 100 * (100-1) / 2 = 4950
 // Função Bubble Sort
 void bubbleSort(int arr[], int n, int *comparisons) {
     for (int i = 0; i < n-1; i++) {
