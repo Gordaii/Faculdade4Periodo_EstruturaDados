@@ -139,8 +139,8 @@ int main(int argc, char *argv[]) {
     for (i = 0; i < TAMANHO_VETOR; i++) {
         printf("%d ", unicos[i]);
     }
-    printf("\n\nComparacoes: %d\n", comparisons);
-    printf("Tempo de execucao: %.2f segundos\n", elapsed_time_sec);
+    printf("\n\nQuantidade de Comparacoes feitas usando o método Bubble Sort: %d\n", comparisons);
+    printf("\n\nTempo de execucao: %.2f segundos\n", elapsed_time_sec);
     printf("Tempo de execuçcao: %.3f milisegundos\n", elapsed_time_milisec);
     printf("Tempo de execuçcao: %f microsegundos\n", elapsed_time);
 
